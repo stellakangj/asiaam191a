@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Map and Survey</title>
+        <!-- hint: remember to change your page title! -->
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="js/papaparse.min.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="maps.html">Share Reccomendations</a></li>        </header>
+
+        <div class="main">
+            <div id="headers">
+                <h1 style="padding-left: 25px;">Food Recommendations in LA</h1>            <br><br><br>
+            <div id="placeForButtons"></div>
+            <div id="contents">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu26tPQ_8GEIMWUNNXAlVWjB7imZ1wWspzALi0mefe8N4geg/viewform?embedded=true" width="640" height="1344" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>            </div>
+        </div>
+            <div id="the_map"></div>
+        </div>
+        <div id="footer">
+            Copyright(2023)
+        </div>
+        <script src="js/init.js"></script>
+    </body>
+</html>
